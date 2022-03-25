@@ -1,0 +1,127 @@
+@media only screen and (min-width:200px) {
+
+    * { 
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+        font-family: 'EB Garamond', serif;
+    }
+    
+    
+    .header {
+        background-color: var(--clr-six);
+        padding: 10px;
+        
+    }
+    
+    
+    .logo {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    
+    :root {
+        --clr-one: #437c90;
+        --clr-two: #f7f0f0;
+        --clr-three: #80d39b;
+        --clr-four: #303522;
+        --clr-six: #437c90;
+    }
+    
+    header img {
+        width:100px;
+        height: auto;
+    }
+    
+    .logo h1 {
+        color: var(--clr-three);
+    }
+    
+    nav {
+        max-width: 760px;
+        margin: auto;
+    }
+    
+    .list {
+        list-style: none;
+        text-align: center;
+        display: block;
+    }
+    
+    .list a {
+        text-decoration: none;
+        font-size: 30px;
+        padding: 10px;
+        text-align: center;
+        color: var(--clr-two);
+    }
+    
+    footer img {
+    width: 100px;
+    height: auto;
+    }
+    
+    .footer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--clr-six);
+        padding: 20px;
+    }
+    
+    
+    main img {
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    footer p {
+        color: var(--clr-three);
+    }
+    
+    
+    
+    .lists li{
+        color: var(--clr-four);
+    }
+    
+    span {
+        color:black;
+        background-color: #E2C2FF;
+    }
+    }
+    @media only screen and (min-width: 760px) {
+    
+        * {
+            max-width: 992px;
+            margin: auto;
+        }
+    
+        .list {
+            display: flex;
+        }
+    
+    
+    
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+    
+        h1 {
+            font-family: 'EB Garamond', serif;
+        }
+    
+        p {
+            font-family: 'IBM Plex Serif', serif;
+        }
+    
+        main {
+            max-width: 960px;
+    
+        }
+    }
